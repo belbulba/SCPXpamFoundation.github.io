@@ -3,7 +3,7 @@ function ChangeOn000() {
   elem.innerHTML = "<div class='wow bounceInDown' data-wow-duration='1s'>ДЕМЕНТИЙ</div>";
 
   var elem = document.getElementById("image");
-  elem.innerHTML = "<div class='wow bounceInDown' data-wow-duration='1s'><img src='images/nophoto.jpg' alt='' class='SCPImage''></div>";
+  elem.innerHTML = "<div class='wow bounceInDown' data-wow-duration='1s'><img src='images/0maingif.gif' alt='' class='SCPImage''></div>";
 
   var elem = document.getElementById("number");
   elem.outerHTML = "<div id='number' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.1s'>Номер: #000</div>";
@@ -65,7 +65,7 @@ function ChangeOn001() {
   elem.innerHTML = "<div class='wow bounceInDown' data-wow-duration='1s'>СКВЕРНАЯ АРТЁМИЯ</div>";
 
   var elem = document.getElementById("image");
-  elem.innerHTML = "<div class='wow bounceInDown' data-wow-duration='1s'><img src='images/nophoto.jpg' alt='' class='SCPImage''></div>";
+  elem.innerHTML = "<div class='wow bounceInDown' data-wow-duration='1s'><img src='images/1maingif.gif' alt='' class='SCPImage''></div>";
 
   var elem = document.getElementById("number");
   elem.outerHTML = "<div id='number' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.1s'>Номер: #001</div>";
@@ -127,7 +127,7 @@ function ChangeOn012() {
   elem.innerHTML = "<div class='wow bounceInDown' data-wow-duration='1s'>ЛИНДЕМОМИЯ</div>";
 
   var elem = document.getElementById("image");
-  elem.innerHTML = "<div class='wow bounceInDown' data-wow-duration='1s'><img src='images/5main.jpg' alt='' class='SCPImage''></div>";
+  elem.innerHTML = "<div class='wow bounceInDown' data-wow-duration='1s'><img src='images/12MainGIF.gif' alt='' class='SCPImage''></div>";
 
   var elem = document.getElementById("number");
   elem.outerHTML = "<div id='number' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.1s'>Номер: #012</div>";

@@ -17,10 +17,10 @@ function ChangeOn000() {
   elem.outerHTML = "<div id='number' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.1s'>Номер: #000</div>";
 
   var elem = document.getElementById("level");
-  elem.outerHTML = "<div id='level' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.2s'>Допуск: четвёрты уровень</div>";
+  elem.outerHTML = "<div id='level' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.2s'>Допуск: <span class='fourthLevel'>четвёртый уровень</span> </div>";
 
   var elem = document.getElementById("classOf");
-  elem.outerHTML = "<div id='classOf' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.3s'>Класс: кетер</div>";
+  elem.outerHTML = "<div id='classOf' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.3s'>Класс:<span class='safe overCrossed'> безопасный</span><span class='euclid overCrossed'> евклид</span><span class='keter overCrossed'> кетер</span><span class='thaumiel'> таумиель</span></div>";
 
   var elem = document.getElementById("age");
   elem.outerHTML = "<div id='age' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.4s'>Возраст: [ДАННЫЕ УДАЛЕНЫ]</div>";
@@ -55,10 +55,10 @@ function ChangeOn002() {
   elem.outerHTML = "<div id='number' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.1s'>Номер: #002</div>";
 
   var elem = document.getElementById("level");
-  elem.outerHTML = "<div id='level' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.2s'>Допуск: первый уровень</div>";
+  elem.outerHTML = "<div id='level' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.2s'>Допуск: <span class='firstLevel'>первый уровень</span> </div>";
 
   var elem = document.getElementById("classOf");
-  elem.outerHTML = "<div id='classOf' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.3s'>Класс: безопасный</div>";
+  elem.outerHTML = "<div id='classOf' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.3s'>Класс:<span class='safe'> безопасный</span></div>";
 
   var elem = document.getElementById("age");
   elem.outerHTML = "<div id='age' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.4s'>Возраст: ~18 столетий</div>";
@@ -92,10 +92,10 @@ function ChangeOn001() {
   elem.outerHTML = "<div id='number' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.1s'>Номер: #001</div>";
 
   var elem = document.getElementById("level");
-  elem.outerHTML = "<div id='level' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.2s'>Допуск: четвёртый уровень</div>";
+  elem.outerHTML = "<div id='level' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.2s'>Допуск: <span class='fourthLevel'>четвёртый уровень</span> </div>";
 
   var elem = document.getElementById("classOf");
-  elem.outerHTML = "<div id='classOf' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.3s'>Класс: кетер</div>";
+  elem.outerHTML = "<div id='classOf' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.3s'>Класс:<span class='keter'> кетер</span></div>";
 
   var elem = document.getElementById("age");
   elem.outerHTML = "<div id='age' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.4s'>Возраст: [ДАННЫЕ УДАЛЕНЫ]</div>";
@@ -129,10 +129,10 @@ function ChangeOn005() {
   elem.outerHTML = "<div id='number' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.1s'>Номер: #005</div>";
 
   var elem = document.getElementById("level");
-  elem.outerHTML = "<div id='level' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.2s'>Допуск: первый уровень</div>";
+  elem.outerHTML = "<div id='level' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.2s'>Допуск: <span class='firstLevel'>первый уровень</span> </div>";
 
   var elem = document.getElementById("classOf");
-  elem.outerHTML = "<div id='classOf' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.3s'>Класс: безопасный</div>";
+  elem.outerHTML = "<div id='classOf' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.3s'>Класс:<span class='safe'> безопасный</span></div>";
 
   var elem = document.getElementById("age");
   elem.outerHTML = "<div id='age' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.4s'>Возраст: 4 года</div>";

@@ -426,7 +426,7 @@ a:visited {
 
 .SCPMenuPoints {
   font-family: Chanel;
-  font-size: 1vw;
+  font-size: 18px;
   text-align: left;
   color: white;
   transition: 0.5s;
@@ -580,6 +580,25 @@ a:visited {
   font-weight: bold;
   color: pink;
   cursor: pointer;
+}
+
+.headImage {
+  background-image: url(../images/space.png);
+  height: 10vh;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.specialHover {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.specialHover:hover {
+  color: #da778f;
+  transition: 0.5s;
 }
 
 @keyframes MouseOpacity {

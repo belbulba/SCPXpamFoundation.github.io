@@ -19,19 +19,38 @@
   <script>
     new WOW().init();
   </script>
-  <script type="text/javascript">
 
-  </script>
 
 </head>
 
-<body style="height:100vh; overflow-y:none">
+<body onload="init()" style="height:100vh; overflow-y:none">
   <script>
     window.onload = function() {
       document.body.classList.add('loaded_hiding');
       window.setTimeout(function() {
         document.body.classList.add('loaded');
         document.body.classList.remove('loaded_hiding');
+        var scparray = ['000','001','002','005','012']
+        var rand = Math.floor(Math.random() * scparray.length);
+        var elemId = scparray[rand] + 'scp';
+        var elem1 = document.getElementById("firstRandomSCP");
+        var elem2 = "<div id='firstRandomSCP' class='col-12' onclick='ChangeOn"+scparray[rand]+"()'><span class='specialHover'>"+document.getElementById(elemId).innerHTML+"</span></div>";
+        elem1.outerHTML = elem2;
+        scparray.splice(rand,1);
+        rand = Math.floor(Math.random() * scparray.length);
+        elemId = scparray[rand] + 'scp';
+        elem1 = document.getElementById("secondRandomSCP");
+        elem2 = "<div id='secondRandomSCP' class='col-12' onclick='ChangeOn"+scparray[rand]+"()'><span class='specialHover'>"+document.getElementById(elemId).innerHTML+"</span></div>";
+        elem1.outerHTML = elem2;
+        scparray.splice(rand,1);
+        rand = Math.floor(Math.random() * scparray.length);
+        elemId = scparray[rand] + 'scp';
+        elem1 = document.getElementById("thirdRandomSCP");
+        elem2 = "<div id='thirdRandomSCP' class='col-12' onclick='ChangeOn"+scparray[rand]+"()'><span class='specialHover'>"+document.getElementById(elemId).innerHTML+"</span></div>";
+        elem1.outerHTML = elem2;
+        scparray.splice(rand,1);
+
+
       }, 500);
     }
   </script>
@@ -52,19 +71,19 @@
         <div class="row scrollHidden wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.3s" style="overflow-y:scroll; height:85vh">
 
           <div class="col-md-12 col-lg-12 SCPMenuPoints">
-            <a onclick="ChangeOn000()">· 000 – Дементий</a>
+            <a id="000scp" onclick="ChangeOn000()">· 000 – Дементий</a>
           </div>
           <div class="col-md-12 col-lg-12 SCPMenuPoints">
-            <a onclick="ChangeOn001()">· 001 – Скверная Артёмия</a>
+            <a id="001scp" onclick="ChangeOn001()">· 001 – Скверная Артёмия</a>
           </div>
           <div class="col-md-12 col-lg-12 SCPMenuPoints">
-            <a onclick="ChangeOn002()">· 002 – Ортём</a>
+            <a id="002scp" onclick="ChangeOn002()">· 002 – Ортём</a>
           </div>
           <div class="col-md-12 col-lg-12 SCPMenuPoints">
-            <a onclick="ChangeOn005()">· 005 – Раздор</a>
+            <a id="005scp" onclick="ChangeOn005()">· 005 – Раздор</a>
           </div>
           <div class="col-md-12 col-lg-12 SCPMenuPoints">
-            <a onclick="ChangeOn012()">· 012 – ЛиндеМОМия</a>
+            <a id="012scp" onclick="ChangeOn012()">· 012 – ЛиндеМОМия</a>
           </div>
           <div class="col-md-12 col-lg-12 SCPMenuPoints">
             <a onclick="ChangeOn097()">· 097 – Костыль</a>
@@ -154,7 +173,44 @@
           </div>
         </div>
       </div>
-      <div class="col-md-9" style="margin-left:2vw;">
+      <div id="displayFirst" class="col-md-10">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 headImage d-flex justify-content-center textFontHeaderLandingWhite wow bounceInDown" data-wow-duration="0.9s">
+          SCP XPAM CATALOGUE
+        </div>
+      </div>
+      <div class="row" style="height:10vh; margin-top:10vh">
+        <div class="col-6 wow bounceInUp" data-wow-duration="1s">
+            <div class="col-12 d-flex justify-content-center"><span class="SecondaryTextTitle">СЛУЧАЙНЫЕ СТАТЬИ</span><br></div>
+        </div>
+        <div class="col-6 wow bounceInRight" data-wow-duration="1s">
+                <div class="col-12 d-flex justify-content-center"><span class="SecondaryTextTitle">ИНФОРМАЦИЯ</span><br></div>
+        </div>
+      </div>
+      <div class="row d-flex" style="height:70vh">
+        <div class="col-6 wow flash centerText SecondaryTextTitle" data-wow-duration="1s" data-wow-delay="1s" style="font-size:35px">
+          <div id="firstRandomSCP" class="col-12"></div>
+          <div id="secondRandomSCP" class="col-12"></div>
+          <div id="thirdRandomSCP" class="col-12"></div>
+
+        </div>
+        <div class="col-6 MainTextStyleCatalogue wow bounceInRight centerText" data-wow-duration="1s">
+
+          В данном разделе вы можете просмотреть случайный объект или выбрать нужный вам из списка.<br><br>
+          Так же на страницах объектов присутсвуют определённые элементы форматирования, представленные ниже: <br><br>
+          Скрытый или секретный текст - <span class="secretText">ПРИМЕР</span> - проявляется, при наведении на него.<br><br>
+          Перечёркнутый текст - <span class="overCrossed">ПРИМЕР</span> - означает неактуальность.<br><br>
+          Ссылка - <span class="linkToAnotherSCP">ПРИМЕР</span> - перенаправляет на другую статью.<br><br>
+          Уровни допуска - <span class="firstLevel">ПРИМЕР </span><span class="secondLevel">ПРИМЕР </span><span class="thirdLevel">ПРИМЕР </span><span class="fourthLevel">ПРИМЕР </span><span class="fifthLevel">ПРИМЕР </span> - означает различный уровень допуска к статье.<br><br>
+          Категории объектов - <span class="safe">ПРИМЕР </span><span class="euclid">ПРИМЕР </span><span class="keter">ПРИМЕР </span><span class="thaumiel">ПРИМЕР </span> - означает различные категории объектов.
+
+          <br><br> Чтобы попасть к этим правилам, когда вы находитесь на статье объекта - просто обновите страницу
+        </div>
+      </div>
+      </div>
+
+
+      <div id="displayNone" class="col-md-10" style="margin-left:2vw; display:none">
         <div class="row d-flex justify-content-center">
           <div id="image" style="height:50vh;" class="col-md-6 d-flex justify-content-center align-items-center">
             <div class="wow bounceInDown" data-wow-duration="1s">
@@ -188,7 +244,7 @@
                   Возраст: ~18 столетий
                 </div>
               </div>
-              <div id="date" class="col-md-12 CatalogueFastInfo">
+              <div id="date" class=" col-md-12 CatalogueFastInfo">
                 <div class="wow bounceInRight" data-wow-duration="1s" data-wow-delay="1.6s">
                   Занесено в реестр: 08.01.20
                 </div>
@@ -289,6 +345,7 @@
       <div class="col-md-12 d-flex justify-content-center">
         <div class="col-md-5 d-flex justify-content-center MainTextTitle wow bounceInRight" data-wow-duration="1s"> УСЛОВИЯ СОДЕРЖАНИЯ</div>
       </div>
+      <br>
       Cодержать в комнате 3х3х3 метра, стены которой состоят из титанового сплава, совмещённого с армированными бетонными конструкциями. Дверь в комнату должна состоять из армированного титанового сплава.</br></br> На входе должны стоять 4 специально
       обученных охранника в обмундировании максимального класса. В камере запрещено устанавливать средства аудио- и видеосвязи.</br></br> Каждый день следует предоставлять объекту пищу дважды. В обед: две сосиски и хлеб. На ужин: вода, куриное яйцо,
       пачка закрытых чипсов. <b>КАТЕГОРИЧЕСКИ</b> запрещено проводить завтрак.</br></br>
@@ -299,7 +356,7 @@
       <div class="col-md-12 d-flex justify-content-center">
         <div class="col-md-5 d-flex justify-content-center MainTextTitle wow bounceInLeft" data-wow-duration="1s"> ОПИСАНИЕ</div>
       </div>
-      Объект SCP-1 был найден в городе Минске, Беларусь. На данный момент известно, что объект родился в ████-м году, по его информации.</br></br> Объект общительный, сам предоставляет данные о себе. Выглядит как особь мужского пола 20-ти лет.
+      <br>Объект SCP-1 был найден в городе Минске, Беларусь. На данный момент известно, что объект родился в ████-м году, по его информации.</br></br> Объект общительный, сам предоставляет данные о себе. Выглядит как особь мужского пола 20-ти лет.
       Когда был найден, то назвался как "Скверная Артёмия". <b>КАТЕГОРИЧЕСКИ</b> не воспринимает, когда его называют "Скверная Арт<b style="color:#c73636">Е</b>мия". В таком случае применяет меметическое воздействие на всех лиц в радиусе 20-ти
       километров. Начинает выкрикивать различные фразы, такие как: "бл* у", ████, ████. Так же начинает активно дышать в микрофон и жевать зубочистки.</br></br> Меметическое воздействие проявляется таким образом, что лица рядом начинают производить
       аналогичные действия, со временем превращаясь в неконтролируемых животных, каким является SCP-1.<br><br>
@@ -472,7 +529,7 @@
           <br><br>
           (конец документа)
           <br><br>
-          
+
         </div>
       </div>
 

@@ -1,4 +1,12 @@
+
 function ChangeOn000() {
+
+  var elem = document.getElementById("displayFirst");
+  elem.setAttribute("style","display:none");
+
+  var elem = document.getElementById("displayNone");
+  elem.removeAttribute("style");
+
   var elem = document.getElementById("name");
   elem.innerHTML = "<div class='wow bounceInDown' data-wow-duration='1s'>ДЕМЕНТИЙ</div>";
 
@@ -30,6 +38,13 @@ function ChangeOn000() {
 }
 
 function ChangeOn002() {
+
+    var elem = document.getElementById("displayFirst");
+    elem.setAttribute("style","display:none");
+
+    var elem = document.getElementById("displayNone");
+    elem.removeAttribute("style");
+
   var elem = document.getElementById("name");
   elem.innerHTML = "<div class='wow bounceInDown' data-wow-duration='1s'>ОРТЁМ</div>";
 
@@ -61,6 +76,12 @@ function ChangeOn002() {
 }
 
 function ChangeOn001() {
+  var elem = document.getElementById("displayFirst");
+  elem.setAttribute("style","display:none");
+
+  var elem = document.getElementById("displayNone");
+  elem.removeAttribute("style");
+
   var elem = document.getElementById("name");
   elem.innerHTML = "<div class='wow bounceInDown' data-wow-duration='1s'>СКВЕРНАЯ АРТЁМИЯ</div>";
 
@@ -92,6 +113,12 @@ function ChangeOn001() {
 }
 
 function ChangeOn005() {
+  var elem = document.getElementById("displayFirst");
+  elem.setAttribute("style","display:none");
+
+  var elem = document.getElementById("displayNone");
+  elem.removeAttribute("style");
+
   var elem = document.getElementById("name");
   elem.innerHTML = "<div class='wow bounceInDown' data-wow-duration='1s'>РАЗДОР</div>";
 
@@ -123,6 +150,12 @@ function ChangeOn005() {
 }
 
 function ChangeOn012() {
+  var elem = document.getElementById("displayFirst");
+  elem.setAttribute("style","display:none");
+
+  var elem = document.getElementById("displayNone");
+  elem.removeAttribute("style");
+
   var elem = document.getElementById("name");
   elem.innerHTML = "<div class='wow bounceInDown' data-wow-duration='1s'>ЛИНДЕМОМИЯ</div>";
 

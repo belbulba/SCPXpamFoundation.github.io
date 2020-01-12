@@ -34,19 +34,19 @@
         var rand = Math.floor(Math.random() * scparray.length);
         var elemId = scparray[rand] + 'scp';
         var elem1 = document.getElementById("firstRandomSCP");
-        var elem2 = "<div id='firstRandomSCP' class='col-12' onclick='ChangeOn"+scparray[rand]+"()'><span class='specialHover'>"+document.getElementById(elemId).innerHTML+"</span></div>";
+        var elem2 = "<div class='col-12'><img src='images/"+scparray[rand]+"main.gif' class='SCPImage' style='height:15vh'><div id='firstRandomSCP' class='col-12' style='margin-bottom:3vh' onclick='ChangeOn"+scparray[rand]+"()'><span class='specialHover'>"+document.getElementById(elemId).innerHTML+"</span></div></div>";
         elem1.outerHTML = elem2;
         scparray.splice(rand,1);
         rand = Math.floor(Math.random() * scparray.length);
         elemId = scparray[rand] + 'scp';
         elem1 = document.getElementById("secondRandomSCP");
-        elem2 = "<div id='secondRandomSCP' class='col-12' onclick='ChangeOn"+scparray[rand]+"()'><span class='specialHover'>"+document.getElementById(elemId).innerHTML+"</span></div>";
+        elem2 = "<div class='col-12'><img src='images/"+scparray[rand]+"main.gif' class='SCPImage' style='height:15vh'><div id='secondRandomSCP' class='col-12' style='margin-bottom:3vh' onclick='ChangeOn"+scparray[rand]+"()'><span class='specialHover'>"+document.getElementById(elemId).innerHTML+"</span></div>";
         elem1.outerHTML = elem2;
         scparray.splice(rand,1);
         rand = Math.floor(Math.random() * scparray.length);
         elemId = scparray[rand] + 'scp';
         elem1 = document.getElementById("thirdRandomSCP");
-        elem2 = "<div id='thirdRandomSCP' class='col-12' onclick='ChangeOn"+scparray[rand]+"()'><span class='specialHover'>"+document.getElementById(elemId).innerHTML+"</span></div>";
+        elem2 = "<div class='col-12'><img src='images/"+scparray[rand]+"main.gif' class='SCPImage' style='height:15vh'><div id='thirdRandomSCP' class='col-12' style='margin-bottom:3vh' onclick='ChangeOn"+scparray[rand]+"()'><span class='specialHover'>"+document.getElementById(elemId).innerHTML+"</span></div>";
         elem1.outerHTML = elem2;
         scparray.splice(rand,1);
 
@@ -179,7 +179,7 @@
           SCP XPAM CATALOGUE
         </div>
       </div>
-      <div class="row" style="height:10vh; margin-top:10vh">
+      <div class="row" style="height:10vh; margin-top:5vh">
         <div class="col-6 wow bounceInUp" data-wow-duration="1s">
             <div class="col-12 d-flex justify-content-center"><span class="SecondaryTextTitle">СЛУЧАЙНЫЕ СТАТЬИ</span><br></div>
         </div>

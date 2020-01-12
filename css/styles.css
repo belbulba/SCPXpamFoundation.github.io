@@ -506,12 +506,16 @@ a:visited {
 
 .MainTextTitle {
   font-family: Chanel;
-  background-color: #3a3633;
   font-size: 45px;
-  padding-left: 10px;
-  text-align: center;
+  text-align: left;
   width: 50%;
-  border-radius: 20px;
+}
+
+.MainTextTitleFigure {
+  background-color: #3a3633;
+  height: 100%;
+  width: 30px;
+  margin-left: 3.5vw;
 }
 
 .SecondaryTextTitle {

@@ -185,3 +185,114 @@ function ChangeOn012() {
   var elemCopyDescription = document.getElementById("descriptionOf012");
   elem.innerHTML = elemCopyDescription.innerHTML;
 }
+
+function ChangeOn097() {
+  var elem = document.getElementById("displayFirst");
+  elem.setAttribute("style","display:none");
+
+  var elem = document.getElementById("displayNone");
+  elem.removeAttribute("style");
+
+  var elem = document.getElementById("name");
+  elem.innerHTML = "<div class='wow bounceInDown' data-wow-duration='1s'>КОСТЫЛЬ</div>";
+
+  var elem = document.getElementById("image");
+  elem.innerHTML = "<div class='wow bounceInDown' data-wow-duration='1s'><img src='images/097main.gif' alt='' class='SCPImage''></div>";
+
+  var elem = document.getElementById("number");
+  elem.outerHTML = "<div id='number' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.1s'>Номер: #097</div>";
+
+  var elem = document.getElementById("level");
+  elem.outerHTML = "<div id='level' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.2s'>Допуск: <span class='thirdLevel'>третий уровень</span> </div>";
+
+  var elem = document.getElementById("classOf");
+  elem.outerHTML = "<div id='classOf' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.3s'>Класс:<span class='euclid'> евклид</span></div>";
+
+  var elem = document.getElementById("age");
+  elem.outerHTML = "<div id='age' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.4s'>Возраст: неизвестен</div>";
+
+  var elem = document.getElementById("date");
+  elem.outerHTML = "  <div id='date' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.5s'>Занесено в реестр: 13.01.20</div>";
+
+  var elem = document.getElementById("conditions");
+  var elemCopyConditions = document.getElementById("conditionsOf097");
+  elem.innerHTML = elemCopyConditions.innerHTML;
+
+  var elem = document.getElementById("description");
+  var elemCopyDescription = document.getElementById("descriptionOf097");
+  elem.innerHTML = elemCopyDescription.innerHTML;
+}
+
+function ChangeOn306() {
+  var elem = document.getElementById("displayFirst");
+  elem.setAttribute("style","display:none");
+
+  var elem = document.getElementById("displayNone");
+  elem.removeAttribute("style");
+
+  var elem = document.getElementById("name");
+  elem.innerHTML = "<div class='wow bounceInDown' data-wow-duration='1s' style='font-size:6vh'>ДРОЖАЩИЙ ПОСТЕЛЬНЫЙ КОМПЛЕКТ</div>";
+
+  var elem = document.getElementById("image");
+  elem.innerHTML = "<div class='wow bounceInDown' data-wow-duration='1s'><img src='images/306main.gif' alt='' class='SCPImage''></div>";
+
+  var elem = document.getElementById("number");
+  elem.outerHTML = "<div id='number' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.1s'>Номер: #306</div>";
+
+  var elem = document.getElementById("level");
+  elem.outerHTML = "<div id='level' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.2s'>Допуск: <span class='secondLevel'>второй уровень</span> </div>";
+
+  var elem = document.getElementById("classOf");
+  elem.outerHTML = "<div id='classOf' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.3s'>Класс:<span class='euclid'> евклид</span></div>";
+
+  var elem = document.getElementById("age");
+  elem.outerHTML = "<div id='age' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.4s'>Возраст: [ДАННЫЕ УДАЛЕНЫ]</div>";
+
+  var elem = document.getElementById("date");
+  elem.outerHTML = "  <div id='date' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.5s'>Занесено в реестр: 13.01.20</div>";
+
+  var elem = document.getElementById("conditions");
+  var elemCopyConditions = document.getElementById("conditionsOf306");
+  elem.innerHTML = elemCopyConditions.innerHTML;
+
+  var elem = document.getElementById("description");
+  var elemCopyDescription = document.getElementById("descriptionOf306");
+  elem.innerHTML = elemCopyDescription.innerHTML;
+}
+
+function ChangeOn913() {
+  var elem = document.getElementById("displayFirst");
+  elem.setAttribute("style","display:none");
+
+  var elem = document.getElementById("displayNone");
+  elem.removeAttribute("style");
+
+  var elem = document.getElementById("name");
+  elem.innerHTML = "<div class='wow bounceInDown' data-wow-duration='1s' style='font-size:6vh'>ПРЕСЛЕДУЮЩЕЕ ВЛАДЕЛЬЦА КРОВАВОЕ ПЯТНО</div>";
+
+  var elem = document.getElementById("image");
+  elem.innerHTML = "<div class='wow bounceInDown' data-wow-duration='1s'><img src='images/913main.gif' alt='' class='SCPImage''></div>";
+
+  var elem = document.getElementById("number");
+  elem.outerHTML = "<div id='number' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.1s'>Номер: #913</div>";
+
+  var elem = document.getElementById("level");
+  elem.outerHTML = "<div id='level' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.2s'>Допуск: <span class='firstLevel'>первый уровень</span> </div>";
+
+  var elem = document.getElementById("classOf");
+  elem.outerHTML = "<div id='classOf' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.3s'>Класс:<span class='safe'> безопасный</span></div>";
+
+  var elem = document.getElementById("age");
+  elem.outerHTML = "<div id='age' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.4s'>Возраст: неизвестен</div>";
+
+  var elem = document.getElementById("date");
+  elem.outerHTML = "  <div id='date' class='col-md-12  wow bounceInRight CatalogueFastInfo' data-wow-duration='1s' data-wow-delay='0.5s'>Занесено в реестр: 13.01.20</div>";
+
+  var elem = document.getElementById("conditions");
+  var elemCopyConditions = document.getElementById("conditionsOf913");
+  elem.innerHTML = elemCopyConditions.innerHTML;
+
+  var elem = document.getElementById("description");
+  var elemCopyDescription = document.getElementById("descriptionOf913");
+  elem.innerHTML = elemCopyDescription.innerHTML;
+}

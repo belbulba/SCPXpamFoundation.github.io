@@ -30,7 +30,7 @@
       window.setTimeout(function() {
         document.body.classList.add('loaded');
         document.body.classList.remove('loaded_hiding');
-        var scparray = ['000','001','002','005','012']
+        var scparray = ['000','001','002','005','012','097','306','913']
         var rand = Math.floor(Math.random() * scparray.length);
         var elemId = scparray[rand] + 'scp';
         var elem1 = document.getElementById("firstRandomSCP");
@@ -86,13 +86,13 @@
             <a id="012scp" onclick="ChangeOn012()">· 012 – ЛиндеМОМия</a>
           </div>
           <div class="col-md-12 col-lg-12 SCPMenuPoints">
-            <a onclick="ChangeOn097()">· 097 – Костыль</a>
+            <a id="097scp" onclick="ChangeOn097()">· 097 – Костыль</a>
           </div>
           <div class="col-md-12 col-lg-12 SCPMenuPoints">
-            <a onclick="ChangeOn306()">· 306 – Дрожащий постельный комплект</a>
+            <a id="306scp" onclick="ChangeOn306()">· 306 – Дрожащий постельный комплект</a>
           </div>
           <div class="col-auto SCPMenuPoints wow ">
-            <a onclick="ChangeOn913()">· 913 – Преследующее владельца кровавое пятно</a>
+            <a id="913scp" onclick="ChangeOn913()">· 913 – Преследующее владельца кровавое пятно</a>
           </div>
           <div class="col-md-12 col-lg-12 SCPMenuPoints">
             <a onclick="">· XXX – НЕ ОПРЕДЕЛЕНО</a>
@@ -214,7 +214,7 @@
         <div class="row d-flex justify-content-center">
           <div id="image" style="height:50vh;" class="col-md-6 d-flex justify-content-center align-items-center">
             <div class="wow bounceInDown" data-wow-duration="1s">
-              <img src="images/001Main.jpg" alt="" class="SCPImage">
+              <img src="images/001main.gif" alt="" class="SCPImage">
             </div>
           </div>
           <div class="col-md-6" style="height:40vh">
@@ -621,9 +621,121 @@
           <br><br>
           (конец документа)
           <br><br>
-
         </div>
       </div>
+
+      <!-- 97й -->
+      <div id="conditionsOf097" class="col-md-12 wow flash MainTextStyleCatalogue" data-wow-duration="2s" data-wow-delay="1.3s" style="display:none">
+        <div class="wow bounceInRight" data-wow-duration="1s">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-1 "> <div class="MainTextTitleFigure"></div> </div>
+            <div class="col-11 MainTextTitle">
+                УСЛОВИЯ СОДЕРЖАНИЯ
+              </div>
+            </div>
+          </div>
+            <br>Объект хранить в изолированной комнате 7x7x7 с мягкими стенами, полом и потолком. Не подпускать объект к обрывам, крышам и турникам во избежании получения травм как объекта, так и охраняемого лица.<br><br>
+        </div>
+      </div>
+      <div id="descriptionOf097" class="col-md-12 wow flash MainTextStyleCatalogue" data-wow-duration="2s" data-wow-delay="1.6s" style="display:none">
+        <div class="wow bounceInLeft" data-wow-duration="1s">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-1 "> <div class="MainTextTitleFigure"></div> </div>
+            <div class="col-11 MainTextTitle">
+                ОПИСАНИЕ
+              </div>
+            </div>
+          </div>
+                    <br>Объект SCP-097 был найден в глубоком карьере в окрестностях небольшого городка Онге, Швеция, 1995 год.
+      Объект SCP-097 представляет собой некую массу с выпирающими обломками костей и многочисленными швами. Масса объекта <span class="secretText">[СЕКРЕТНО]</span>. Иногда у объекта случаются неконтролируемые припадки, при которых он ведет себя агрессивно по отношению к себе и окружающим себя людям.<br><br>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-1 "> <div class="MainTextTitleFigure"></div> </div>
+              <div class="col-11 MainTextTitle">
+                ПРИЛОЖЕНИЕ
+              </div>
+            </div>
+          </div>
+          <br><br><span class="SecondaryTextTitle">ИНЦИДЕНТ #5: </span>
+          <br> Объект SCP-097 во время прогулки быстро направился к крыше здания хоз. блока. Добравшись до крыши, спрыгнул вниз на бетонное покрытие получив при этом 29% повреждения тела.<br>
+          <br><span class="SecondaryTextTitle">ИНЦИДЕНТ #8: </span>
+          <br> Во время кормежки объект затянул охранника в камеру и накинулся на него всей своей массой. Повреждения охранника: 3 сломанных ребра, открытый перелом левой руки, <span class="secretText">отвалилась ████</span>.<br>
+        </div>
+      </div>
+
+      <!-- 306й -->
+      <div id="conditionsOf306" class="col-md-12 wow flash MainTextStyleCatalogue" data-wow-duration="2s" data-wow-delay="1.3s" style="display:none">
+        <div class="wow bounceInRight" data-wow-duration="1s">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-1 "> <div class="MainTextTitleFigure"></div> </div>
+            <div class="col-11 MainTextTitle">
+                УСЛОВИЯ СОДЕРЖАНИЯ
+              </div>
+            </div>
+          </div>
+            <br>Объект хранить в вакуумном пакете в комнате 3x3x3 метра в центре комнаты. В камере должны быть устройства видеонаблюдения. На выходе должен быть один охранник.<br><br>
+        </div>
+      </div>
+      <div id="descriptionOf306" class="col-md-12 wow flash MainTextStyleCatalogue" data-wow-duration="2s" data-wow-delay="1.6s" style="display:none">
+        <div class="wow bounceInLeft" data-wow-duration="1s">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-1 "> <div class="MainTextTitleFigure"></div> </div>
+            <div class="col-11 MainTextTitle">
+                ОПИСАНИЕ
+              </div>
+            </div>
+          </div>
+                    <br>Объект был обнаружен в заброшенном монастыре в Тибете в <span class="secretText">XX</span>.<span class="secretText">XX</span>.1995. Данный объект представляет из себя обычный постельный комплект из наволочки, пододеяльника, простыни и <span class="secretText">[ДАННЫЕ УДАЛЕНЫ]</span>. При нахождении в сложенном состоянии, объект немного подрагивает. Если же кровать заправить данным комплектом и поспать в ней, то результат всегда непредсказуем. При активации объект нарушает деятельность камер видеонаблюдения и вызывает на них помехи.<br><br>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-1 "> <div class="MainTextTitleFigure"></div> </div>
+              <div class="col-11 MainTextTitle">
+                ПРИЛОЖЕНИЕ
+              </div>
+            </div>
+          </div>
+          <br><br><span class="SecondaryTextTitle">ИНЦИДЕНТ #3: </span>
+          <br> Объект D-класса входит в камеру. Далее заправляет кровать при помощи SCP-306. Ложится в кровать и засыпает. На записи с камер наблюдения видны помехи на протяжении <span class="secretText">XX</span> секунд. После помех на видеозаписи было видно, что объект D-класса словно испарился.<br>
+          <br><span class="SecondaryTextTitle">ИНЦИДЕНТ #13: </span>
+          <br> Начало эксперемента происходит без изменений, объект D-класса производит всё те же действия и ложится спать. Объект D-0013 остался в постели, но был найден мёртвым утром. Вскрытие показало смерть от остановки сердца. Вероятнее всего объект вызвал у сотрудника сонный паралич во время помех на камере.<br>
+          <br><span class="SecondaryTextTitle">ИНЦИДЕНТ #69: </span>
+          <br> Объект D-0069 входит в камеру и заправляет кровать при помощи SCP-306. Ложится в кровать и засыпает. Ничего необычноо не происходит. Объект D-класса просыпается после 9-ти часов сна. Он заявляет, что чувствует себя хорошо. Однако позже у D-0069 был обнаружен рак <span class="secretText">[ДАННЫЕ УДАЛЕНЫ]</span> после контакта с объектом.
+        </div>
+      </div>
+
+      <!-- 913й -->
+      <div id="conditionsOf913" class="col-md-12 wow flash MainTextStyleCatalogue" data-wow-duration="2s" data-wow-delay="1.3s" style="display:none">
+        <div class="wow bounceInRight" data-wow-duration="1s">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-1 "> <div class="MainTextTitleFigure"></div> </div>
+            <div class="col-11 MainTextTitle">
+                УСЛОВИЯ СОДЕРЖАНИЯ
+              </div>
+            </div>
+          </div>
+            <br>Не требует особых условий хранения. Содержать в стандартной камере без охраны.<br><br>
+        </div>
+      </div>
+      <div id="descriptionOf913" class="col-md-12 wow flash MainTextStyleCatalogue" data-wow-duration="2s" data-wow-delay="1.6s" style="display:none">
+        <div class="wow bounceInLeft" data-wow-duration="1s">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-1 "> <div class="MainTextTitleFigure"></div> </div>
+            <div class="col-11 MainTextTitle">
+                ОПИСАНИЕ
+              </div>
+            </div>
+          </div>
+            <br>Объект был найден у [УДАЛЕНО] из Ростова-на-Дону в <span class="secretText">ХХХХ</span> году. Объект является биологическими выделениями женской особи SCP-913-1 [УДАЛЕНО] лет. Объект постоянно преследует родителя, но не наносит никакого ущерба окружающим. Имеет металлический запах, схожий с запахом [УДАЛЕНО]. На вид схож с кровянистыми выделениями и имеет кроваво-красный цвет.<br><br>
+        </div>
+      </div>
+
+
 
 
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

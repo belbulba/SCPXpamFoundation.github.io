@@ -607,6 +607,21 @@ a:visited {
   transition: 0.5s;
 }
 
+.form {
+  width: 30vw;
+}
+
+.formInputs {
+width:30vw;
+height:5vh;
+margin-bottom: 1vh;
+}
+
+.formTextArea {
+width:30vw;
+margin-bottom: 1vh;
+}
+
 @keyframes MouseOpacity {
   from {
     opacity: 0;

@@ -1,4 +1,10 @@
 
+@font-face {
+  font-family: 'Umbrella';
+  src: url('../fonts/Umbrella.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @font-face {
   font-family: 'Hyperspace';
@@ -430,7 +436,7 @@ a:visited {
   height: 10vh;
   background-color: #FF7272;
   font-family: Teko;
-  font-size: 3vw;
+  font-size: 7vh;
   text-align: center;
   text-decoration: none;
   color: #712F2F;
@@ -647,6 +653,14 @@ margin-bottom: 1vh;
 .formTextArea {
 width:50vw;
 margin-bottom: 1vh;
+}
+
+.titleOfClasses {
+  background-color: #FF7272;
+  color:#131313;
+  font-family: Umbrella;
+  font-size: 60px;
+  margin-bottom: 3vh;
 }
 
 @keyframes MouseOpacity {

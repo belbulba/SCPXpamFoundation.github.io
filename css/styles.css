@@ -48,6 +48,7 @@ body {
   color: white;
 }
 
+
 a {
   text-decoration: none;
    !important
@@ -269,6 +270,11 @@ a:visited {
   height: 100vh;
 }
 
+.bgFeedback {
+  background-color: #121212;
+
+}
+
 .littleSections {
   height: 100%;
   color: black;
@@ -416,6 +422,27 @@ a:visited {
 }
 
 .backButtonOnMenu a:hover {
+  color: white;
+  transition: 0.5s;
+}
+
+.backButtonOnMenu2 {
+  height: 10vh;
+  background-color: #FF7272;
+  font-family: Teko;
+  font-size: 3vw;
+  text-align: center;
+  text-decoration: none;
+  color: #712F2F;
+  margin-bottom: 20px
+}
+
+.backButtonOnMenu2 a {
+  color: #712F2F;
+  transition: 0.5s;
+}
+
+.backButtonOnMenu2 a:hover {
   color: white;
   transition: 0.5s;
 }
@@ -608,7 +635,7 @@ a:visited {
 }
 
 .form {
-  width: 30vw;
+  width: 50vw;
 }
 
 .formInputs {
@@ -618,7 +645,7 @@ margin-bottom: 1vh;
 }
 
 .formTextArea {
-width:30vw;
+width:50vw;
 margin-bottom: 1vh;
 }
 

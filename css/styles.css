@@ -663,6 +663,14 @@ margin-bottom: 1vh;
   margin-bottom: 3vh;
 }
 
+.closebutton {
+  background-color: #FF7272;
+  color:white;
+  font-family: Chanel;
+  font-size: 3vh;
+  margin-top: 2vh;
+}
+
 @keyframes MouseOpacity {
   from {
     opacity: 0;
@@ -683,6 +691,19 @@ margin-bottom: 1vh;
   .SCPImage {
     height: 35vh;
   }
+}
+
+.secondslidedisplaytrue {
+  display:none;
+}
+
+@media (min-width: 0) and (max-width:1266px) {
+.secondslidedisplaynone {
+  display: none;
+}
+.secondslidedisplaytrue {
+  display:block;
+}
 }
 
 @media (min-width: 0) and (max-width:576px) {}

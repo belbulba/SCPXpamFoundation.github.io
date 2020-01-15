@@ -296,3 +296,113 @@ function ChangeOn913() {
   var elemCopyDescription = document.getElementById("descriptionOf913");
   elem.innerHTML = elemCopyDescription.innerHTML;
 }
+
+function ShowMe000() {
+  var elem = document.getElementById("Show000");
+  elem.removeAttribute("style");
+}
+
+function CloseMe000() {
+  var elem = document.getElementById("Show000");
+  elem.setAttribute("style","display:none");
+}
+
+function ShowMe001() {
+  var elem = document.getElementById("Show001");
+  elem.removeAttribute("style");
+}
+
+function CloseMe001() {
+  var elem = document.getElementById("Show001");
+  elem.setAttribute("style","display:none");
+}
+
+function ShowMe002() {
+  var elem = document.getElementById("Show002");
+  elem.removeAttribute("style");
+}
+
+function CloseMe002() {
+  var elem = document.getElementById("Show002");
+  elem.setAttribute("style","display:none");
+}
+
+function ShowMe003() {
+  var elem = document.getElementById("Show003");
+  elem.removeAttribute("style");
+}
+
+function CloseMe003() {
+  var elem = document.getElementById("Show003");
+  elem.setAttribute("style","display:none");
+}
+
+function ShowMe004() {
+  var elem = document.getElementById("Show004");
+  elem.removeAttribute("style");
+}
+
+function CloseMe004() {
+  var elem = document.getElementById("Show004");
+  elem.setAttribute("style","display:none");
+}
+
+function ShowMe005() {
+  var elem = document.getElementById("Show005");
+  elem.removeAttribute("style");
+}
+
+function CloseMe005() {
+  var elem = document.getElementById("Show005");
+  elem.setAttribute("style","display:none");
+}
+
+function ShowMe006() {
+  var elem = document.getElementById("Show006");
+  elem.removeAttribute("style");
+}
+
+function CloseMe006() {
+  var elem = document.getElementById("Show006");
+  elem.setAttribute("style","display:none");
+}
+
+function ShowMe007() {
+  var elem = document.getElementById("Show007");
+  elem.removeAttribute("style");
+}
+
+function CloseMe007() {
+  var elem = document.getElementById("Show007");
+  elem.setAttribute("style","display:none");
+}
+
+function ShowMe008() {
+  var elem = document.getElementById("Show008");
+  elem.removeAttribute("style");
+}
+
+function CloseMe008() {
+  var elem = document.getElementById("Show008");
+  elem.setAttribute("style","display:none");
+}
+
+function ShowMe009() {
+  var elem = document.getElementById("Show009");
+  elem.removeAttribute("style");
+}
+
+function CloseMe009() {
+  var elem = document.getElementById("Show009");
+  elem.setAttribute("style","display:none");
+}
+
+function ShowMe010() {
+  var elem = document.getElementById("Show0010");
+  elem.removeAttribute("style");
+}
+
+function CloseMe010() {
+  var elem = document.getElementById("Show0010");
+  elem.setAttribute("style","display:none");
+}
